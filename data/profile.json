@@ -2,10 +2,19 @@
   "login": "Shri0777",
   "name": "Shri Menakshi Sundaram V",
   "kicker": "SHRI0777  ·  COIMBATORE, INDIA",
-  "name_lines": ["Shri Menakshi", "Sundaram V."],
+  "name_lines": [
+    "Shri Menakshi",
+    "Sundaram V."
+  ],
   "status": "Freelancing as Zettaco, open to internships",
   "blurb": "Computer Science and Business Systems student at KGiSL, building Django backends, Flutter apps and Next.js sites.",
-  "stack": ["Python", "Django", "Flutter", "Next.js", "Firebase"],
+  "stack": [
+    "Python",
+    "Django",
+    "Flutter",
+    "Next.js",
+    "Firebase"
+  ],
   "tiles": [
     {
       "slug": "build",
@@ -13,7 +22,7 @@
       "accent": "blue",
       "value_from": "repos",
       "label": "public repositories",
-      "caption": "Django, Flutter and Next.js projects, from a campus portal to a content pipeline.",
+      "caption": "Django backends, machine learning projects and Next.js sites.",
       "href": "https://github.com/Shri0777?tab=repositories"
     },
     {
@@ -42,17 +51,52 @@
       "name": "AI Content Automater",
       "language": "Python",
       "accent": "blue",
-      "description": "A Django pipeline from research to publishing, with evidence checks, bounded revisions and human approval.",
-      "tags": ["Django", "Celery", "Redis", "Docker"],
+      "description": "Runs a social media account on a schedule: finds news, writes posts with your chosen AI and publishes after review.",
+      "tags": [
+        "Django",
+        "Celery",
+        "Redis",
+        "Docker"
+      ],
       "href": "https://github.com/Shri0777/AI-Content-Automater"
+    },
+    {
+      "slug": "ai-resume-screener",
+      "name": "AI Resume Screener",
+      "language": "Python",
+      "accent": "yellow",
+      "description": "Ranks PDF resumes against a job description using TF-IDF, semantic embeddings and skill matching.",
+      "tags": [
+        "NLP",
+        "scikit-learn",
+        "Streamlit"
+      ],
+      "href": "https://github.com/Shri0777/AI-RESUME-SCREENER"
+    },
+    {
+      "slug": "heart-disease-prediction",
+      "name": "Heart Disease Prediction",
+      "language": "Python",
+      "accent": "red",
+      "description": "Leak-free scikit-learn pipelines comparing Logistic Regression, Decision Tree and XGBoost on the UCI Cleveland dataset.",
+      "tags": [
+        "ML",
+        "XGBoost",
+        "Streamlit"
+      ],
+      "href": "https://github.com/Shri0777/Heart-Disease-Prediction"
     },
     {
       "slug": "findit",
       "name": "FindIt",
       "language": "Python",
-      "accent": "red",
+      "accent": "blue",
       "description": "A campus lost-and-found portal with search, filters, CSRF-safe status updates and image integrity checks.",
-      "tags": ["Django", "Search", "Tests"],
+      "tags": [
+        "Django",
+        "SQLite",
+        "Tests"
+      ],
       "href": "https://github.com/Shri0777/FindIt"
     }
   ]

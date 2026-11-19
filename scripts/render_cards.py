@@ -370,8 +370,11 @@ def repo(r, idx):
     b.append(text(26, 40, "REPOSITORY", "mono", 10, MUTED, spacing=1.8))
     b.append(f'<circle cx="{W - 26 - width(r["language"], "mono", 10.5, 1) - 12}" cy="36.5" r="4" fill="{color}"/>')
     b.append(text(W - 26, 40, r["language"], "mono", 10.5, INK2, "end", 1))
-    b.append(text(25, 82, r["name"], "serif", 34, INK, spacing=-.4))
-    nx = 25 + width(r["name"], "serif", 34) - .4 * len(r["name"]) + 10
+    ns = 34
+    while width(r["name"], "serif", ns) > W - 90 and ns > 24:
+        ns -= 1
+    b.append(text(25, 82, r["name"], "serif", ns, INK, spacing=-.4))
+    nx = 25 + width(r["name"], "serif", ns) - .4 * len(r["name"]) + 10
     b.append(f'<g class="fb" {anim("nudge", 3.2, 1.5 + idx*.5, "ease-in-out", True)}>' + text(nx, 78, "↗", "sans", 17, MUTED) + "</g>")
     for i, line in enumerate(wrap(r["description"], "sans", 13, W - 52)[:2]):
         b.append(text(26, 110 + i * 20, line, "sans", 13, INK2))
