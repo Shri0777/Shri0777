@@ -313,7 +313,7 @@ def activity(gh):
         else:
             b.append(countup(val, sx, y + 40, lambda v: f"{v:,}", "serif", 38, INK, 1.0 + i * .2))
             b.append(f'<g {anim("fade", .6, 2.2 + i*.15)}>'
-                     + text(sx + width(f"{val:,}", "serif", 38) + 8, y + 40, unit, "serif-italic", 20, MUTED) + "</g>")
+                     + text(sx + width(f"{val:,}", "serif", 38) + 8, y + 40, "day" if unit == "days" and val == 1 else unit, "serif-italic", 20, MUTED) + "</g>")
     if not gh:
         b.append(text(x0, 186, "Fills in with live GitHub data on the first Action run.", "sans", 13, MUTED))
     return svg(W, H, "".join(b), ["serif", "serif-italic", "sans", "mono"], title="Contribution activity over the last 12 months")
