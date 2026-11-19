@@ -1,0 +1,59 @@
+{
+  "login": "Shri0777",
+  "name": "Shri Menakshi Sundaram V",
+  "kicker": "SHRI0777  ·  COIMBATORE, INDIA",
+  "name_lines": ["Shri Menakshi", "Sundaram V."],
+  "status": "Freelancing as Zettaco, open to internships",
+  "blurb": "Computer Science and Business Systems student at KGiSL, building Django backends, Flutter apps and Next.js sites.",
+  "stack": ["Python", "Django", "Flutter", "Next.js", "Firebase"],
+  "tiles": [
+    {
+      "slug": "build",
+      "kicker": "BUILD",
+      "accent": "blue",
+      "value_from": "repos",
+      "label": "public repositories",
+      "caption": "Django, Flutter and Next.js projects, from a campus portal to a content pipeline.",
+      "href": "https://github.com/Shri0777?tab=repositories"
+    },
+    {
+      "slug": "work",
+      "kicker": "WORK",
+      "accent": "red",
+      "value": "Zettaco",
+      "italic": true,
+      "label": "freelance studio",
+      "caption": "Apps and backends for clients, built end to end.",
+      "href": "https://www.linkedin.com/in/shri-menakshi-sundaram-v-747935314"
+    },
+    {
+      "slug": "learn",
+      "kicker": "LEARN",
+      "accent": "yellow",
+      "value": "2028",
+      "label": "graduating year",
+      "caption": "B.Tech in Computer Science and Business Systems at KGiSL, Coimbatore.",
+      "href": "https://www.linkedin.com/in/shri-menakshi-sundaram-v-747935314"
+    }
+  ],
+  "repos": [
+    {
+      "slug": "ai-content-automater",
+      "name": "AI Content Automater",
+      "language": "Python",
+      "accent": "blue",
+      "description": "A Django pipeline from research to publishing, with evidence checks, bounded revisions and human approval.",
+      "tags": ["Django", "Celery", "Redis", "Docker"],
+      "href": "https://github.com/Shri0777/AI-Content-Automater"
+    },
+    {
+      "slug": "findit",
+      "name": "FindIt",
+      "language": "Python",
+      "accent": "red",
+      "description": "A campus lost-and-found portal with search, filters, CSRF-safe status updates and image integrity checks.",
+      "tags": ["Django", "Search", "Tests"],
+      "href": "https://github.com/Shri0777/FindIt"
+    }
+  ]
+}
